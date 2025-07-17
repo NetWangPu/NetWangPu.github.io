@@ -1,11 +1,14 @@
 body {
 	margin: 0;
 	padding: 0;
-	background: #ffc0cb;
-	font-size: 20px;
+	background: url(../background.jpg) no-repeat center center fixed;
+	background-size: cover;
+	font-size: 23px;
 	font-family: '微软雅黑', '宋体', sans-serif;
 	color: #000000;
-	overflow: auto
+	overflow: auto;
+	-webkit-backdrop-filter: blur(3px);
+	backdrop-filter: blur(3px);
 }
 
 a {
